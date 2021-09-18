@@ -30,8 +30,8 @@ def unzip_file(filename, outpath):
 # The dataset annotations and site are Copyright COCO Consortium and licensed CC BY 4.0 Attribution.
 # The images within the dataset are available under the Flickr Terms of Use.
 # See http://cocodataset.org/#termsofuse for details
-download('http://msvocds.blob.core.windows.net/coco2014/train2014.zip', 'dataset/train2014.zip')
-download('http://msvocds.blob.core.windows.net/coco2014/val2014.zip', 'dataset/val2014.zip')
+download('http://images.cocodataset.org/zips/train2014.zip', 'dataset/train2014.zip')
+download('http://images.cocodataset.org/zips/val2014.zip', 'dataset/val2014.zip')
 
 unzip_file('dataset/train2014.zip', 'dataset')
 unzip_file('dataset/val2014.zip', 'dataset')
